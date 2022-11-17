@@ -1,0 +1,14 @@
+.subscribeButton{
+    padding: 1rem 3rem;
+    background-color: var(--yellow-500);
+    border-radius: 2rem;
+    font-weight: bold;
+    border: 0;
+    color: var(--gray-900);
+
+    transition: filter 0.2s;
+
+    &:hover{
+        filter: brightness(0.8)
+    }
+}
