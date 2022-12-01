@@ -1,5 +1,5 @@
 import Stripe from "stripe"
-import { version, name } from "../../package.json"
+import { name, version } from "../../package.json"
 
 export const stripe = new Stripe(
     process.env.STRIPE_API_KEY!,
