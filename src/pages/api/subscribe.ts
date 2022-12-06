@@ -19,7 +19,7 @@ export default async (req: NextApiRequest, res: NextApiResponse)=>{
         return res.status(405).send("Method Not Allowed")
     }
         
-    const session = await getSession({req})
+    const session = await getSession({ req })
         
     const user = await fauna.query<User>(
         q.Get(
